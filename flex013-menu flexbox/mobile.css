@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* Versão para Telas Maiores 
+
+Typical Device Breakpoints
+-------------------------------------------------------------------------------
+* Small screens (landscape phones, 576px and below) pequenas telas: até 600px
+* Medium screens (tablets, 768px and above) celular: de 600px até 768px
+* Large screens (desktops, 992px and above) desktops: de 768px até 992px (Tablet)
+* Extra large screens (large desktops, 1200px and above) desktops: de 992px até 1200px (Desktop)
+* Grandes telas: acima de 1200px
+ */
+
+@media screen and (max-width: 580px){ /* CONFIGURAÇÃO / versão para Mobile */
+
+    header, header > nav {
+        flex-flow: column nowrap;
+    }
+    header > h1 {
+        flex-basis: 50px;
+    }
+    header > nav > a {
+        width: 95vw;
+    }
+
+}
